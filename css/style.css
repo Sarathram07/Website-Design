@@ -1,0 +1,95 @@
+            /*----------------------------  About US  ---------------------------------*/
+
+#mv
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mv
+{
+    border-left: 4px solid royalblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mv img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.mission, .vision
+{
+    color: #000;
+    font-size: 19px;
+}
+
+.text, p
+{
+    color: #0d0909;
+}
+
+.title::before
+{
+    content: '';
+    height: 5px;
+    background-color: royalblue;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after
+{
+    content: '';
+    height: 10px;
+    background-color: royalblue;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(-4px);
+}
+
+               /*----------------------------  Social Media  ---------------------------------*/
+
+#social
+{
+    background: #f8f9fa ;
+    padding: 100px 0;
+}
+
+#social p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.socialicons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.socialicons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+
+ 
+
